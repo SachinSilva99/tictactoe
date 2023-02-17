@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  #game-board {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  #game-board td {
+    border: 1px solid #ccc;
+    height: 100px;
+    width: 100px;
+  }
+  
+  #game-board td:hover {
+    cursor: pointer;
+  }
+  
+  #game-board td.x {
+    background-color: #f00;
+  }
+  
+  #game-board td.o {
+    background-color: #00f;
+  }
+  
+  #result {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  
+  #play-again {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  #play-again:hover {
+    background-color: #3e8e41;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #game-board {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  #game-board td {
+    border: 1px solid #ccc;
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  #game-board td:hover {
+    cursor: pointer;
+    background-color: #ddd;
+  }
+  
+  #game-board td.x {
+    color: #f00;
+  }
+  
+  #game-board td.o {
+    color: #00f;
+  }
+  
+  #result {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  
+  
+  
